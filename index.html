@@ -3,71 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Dream Home</title>
     <!-- <link rel="stylesheet" href="style.css" /> -->
-
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
-    </style>
-
     <style type="text/tailwindcss">
-
-        @theme  {
-         
-        --color-mint: #D4F1F4;
-     
-}
-       @layer base {
-    h1 {
-      font-family: "Times New Roman";
-      font-size: large;
-      font-weight: bold;
-    }
-  h2 {
-    font-size: medium;
-    font-family: "Times New Roman";
-    
-  }
-  h3 {
-    font-size: small;
-    font-family: "Times New Roman";
-   
-  }
-       }
     </style>
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-white">
+<body class="bg-orange-50">
     <!-- Anila-->
-    <section>
+    <section class="top">
     <header class="flex items-center justify-between text-wrap mt-2">
-        <h1 class="m-10 font-bold inline-block" >Dwello</h1>
-         <nav>
+        <img class="m-10 font-bold inline-block" src="./images/logo.png" alt="logo">
+        <nav>
     <ul class="flex items-center gap-6 m-2" >
-        <li><a class="flex justify-around top-0" href="#home">Home</a></li>
-        <li><a class="flex justify-around" href="#services">Service</a></li>
-        <li><a class="flex justify-around" href="#agents">Agents</a></li>
-        <li class=""><a class="flex justify-around" href="#contact">Contact</a></li>
-        <li> <input class="flex justify-around" type="text" placeholder="Search.." name="search"></li>
-        <li> <button class="border rounded flex justify-around" type="signup">Sign up</button></li>
+        <li><a class="flex justify-around top-0 font-bold" href="#home">Home</a></li>
+        <li><a class="flex justify-around font-bold" href="#services">Service</a></li>
+        <li><a class="flex justify-around font-bold" href="#agents">Agents</a></li>
+        <li><a class="flex justify-around font-bold" href="#contact">Contact</a></li>
+        <li><i class="material-icons h-0.5">search</i></li>
+        <li><i class="material-icons">person</i></li>
+        <li> <button class="border rounded flex justify-around m-2 p-0.5 bg-neutral-700 text-white text-lg" type="signup">Sign up</button></li>
     </ul>
   </nav>
     </section>
 
-    <section class="find-dream-home">
-        <h1 class="font-bold text-left">Find your Dream Home </h1>
-        <p class="text-left">Explore our curated selection of exquisite properties meticulously tailored to your unique dream home vision</p>
-        <button class="border rounded flex justify-around" type="signup">Sign up</button>
-        <img src="./images/dreamhome.png" alt="dreamhome">
-    </section>
-    <!-- Harshi -->
-<section>
+    <section class="find-your-dream-home">
+        <h1 class="font-bold text-left pt font-serif m-10 text-5xl">Find your Dream Home </h1>
+        <p class="text-left w-120 pt-4 font-serif m-10 text-2xl">Explore our curated selection of exquisite properties meticulously tailored to your unique dream home vision</p>
+        <button class="border rounded flex justify-around p-1 left-0 m-10  bg-neutral-700 text-white text-lg" type="signup">Sign up</button>
+        <img class="w-200 absolute right-0 top-37" src="./images/dreamhome.png" alt="dreamhome">
+   </section>
+
+   
+    <!-- Aziz -->
+   <section>
         
     </section>
-    <!-- Anila -->
-<section>
+    <!-- Harshi -->
+    <section>
         
     </section>
     <footer>
