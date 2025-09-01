@@ -3,18 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Dream Home</title>
+    
+    <style type="text/tailwindcss">
+         @theme  {
+         
+         --color-dark-orange: #DDC7BB;
+         /*bg-orange-100*/ 
+     
+    }
+    </style>
 </head>
-<body>
-    <section>
+<body class="color-dark-orange">
+    <section class="top">
+    <header class="flex items-center justify-between text-wrap mt-2">
+        <img class="m-10 font-bold inline-block" src="./images/logo.png" alt="logo">
+        <nav>
+    <ul class="flex items-center gap-6 m-2 color-dark-orange" >
+        <li><a class="flex justify-around top-0 font-bold" href="#home">Home</a></li>
+        <li><a class="flex justify-around font-bold" href="#services">Service</a></li>
+        <li><a class="flex justify-around font-bold" href="#agents">Agents</a></li>
+        <li><a class="flex justify-around font-bold" href="#contact">Contact</a></li>
+        <li><i class="material-icons h-0.5">search</i></li>
+        <li><i class="material-icons">person</i></li>
+        <li> <button class="color-dark-orange border rounded flex justify-around m-2 p-0.5 bg-neutral-700 text-white text-lg" type="signup">Sign up</button></li>
+    </ul>
+  </nav>
+    </section>
+    
+    <section class="color-dark-orange">
+        <h1 class="font-bold text-left pt font-serif m-10 text-5xl">Find your Dream Home </h1>
+        <p class="text-left w-120 pt-4 font-serif m-10 text-2xl">Explore our curated selection of exquisite properties meticulously tailored to your unique dream home vision</p>
+        <button class="border rounded flex justify-around p-1 left-0 m-10  bg-neutral-700 text-white text-lg" type="signup">Sign up</button>
+        <img class="w-200 absolute right-0 top-37" src="./images/dreamhome.png" alt="dreamhome">
+   </section>
 
+   <section class="search-property">
+       <div class= "m-30 w-auto h-30 bottom-32 bg-orange-200" id="rectangle"></div>     
+   
+       <div class= "m-30 w-20 h-20 bottom-32 bg-orange-100"></div>     
     </section>
-    
-    <section>
-        
-    </section>
-    
+
     <section>
         
     </section>
