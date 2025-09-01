@@ -10,18 +10,13 @@
     <title>Dream Home</title>
     
     <style type="text/tailwindcss">
-         @theme  {
-         
-         --color-dark-orange: #DDC7BB;
-         /*bg-orange-100*/ 
-     
-    }
+  
     </style>
 </head>
-<body class="color-dark-orange">
+<body class="bg-[#FBF5F5]">
     
-    <!-- HEADER-->
-     <section class="top">
+    <!-- HEADER CONTAINS LOGO, NAVIGATION LINKS, SEARCH AND SIGN UP-->
+    <section>
     <header class="flex items-center justify-between text-wrap mt-2">
         <img class="m-10 font-bold inline-block" src="./images/logo.png" alt="logo">
         <nav>
@@ -32,26 +27,30 @@
         <li><a class="flex justify-around font-bold" href="#contact">Contact</a></li>
         <li><i class="material-icons h-0.5">search</i></li>
         <li><i class="material-icons">person</i></li>
-        <li> <button class="color-dark-orange border rounded flex justify-around m-2 p-0.5 bg-neutral-700 text-white text-lg" type="signup">Sign up</button></li>
+        <li> <button class="border rounded flex justify-around m-10 p-0.5 bg-neutral-700 text-white text-lg" type="signup">Sign up</button></li>
     </ul>
   </nav>
+    </header>
     </section>
-   <!-- MAIN -->
-    <section class="color-dark-orange">
+    <!-- MAIN CONTAINS H1, P, IMAGE AND SIGN UP BUTTON -->
+    <section>
         <h1 class="font-bold text-left pt font-serif m-10 text-5xl">Find your Dream Home </h1>
         <p class="text-left w-120 pt-4 font-serif m-10 text-2xl">Explore our curated selection of exquisite properties meticulously tailored to your unique dream home vision</p>
         <button class="border rounded flex justify-around p-1 left-0 m-10  bg-neutral-700 text-white text-lg" type="signup">Sign up</button>
-        <img class="w-200 absolute right-0 top-37" src="./images/dreamhome.png" alt="dreamhome">
-   </section>
-    <!-- SEARCH PROPERTY -->
-   <section class="search-property">
-       <div class= "m-30 w-auto h-30 bottom-32 bg-orange-200" id="rectangle"></div>     
-   
-       <div class= "m-30 w-20 h-20 bottom-32 bg-orange-100"></div>     
+        <img class="mr-10 w-150 absolute right-0 top-37" src="./images/dreamhome.png" alt="dreamhome">
     </section>
-       
-       
-
+    <!-- SEARCH PROPERTY CONTAINS LOCATION, TYPE, PRICE RANGE AND SIGN UP BUTTON -->
+    <section>
+        <div class= "flex rounded-xl m-30 w-auto h-30 bottom-32 bg-[#DDC7BB]">
+ <div class= "flex items-center self-center rounded-xl m-20 w-50 h-20 bg-[#FBF5F1] text-xl"><div class="ml-6 text-xl ">Location</div>
+        <i class="material-icons ml-14">location_on</i></div>   
+        <div class= "flex items-center self-center rounded-xl  m-20 w-50 h-20 bg-[#FBF5F1] text-xl"><div class="ml-6 text-xl ">Type</div>
+        <i class="material-icons ml-22">home</i></div>
+        <div class= "flex items-center self-center rounded-xl m-20 w-50 h-20 bg-[#FBF5F1] text-xl"><div class="ml-6 text-xl ">Price Range</div>
+        <i class="material-icons ml-7">euro</i></div>
+        <button class="border rounded p-1 m-10  bg-neutral-700 text-white text-lg" type="signup">Sign up</button>
+        </div>     
+    </section>
     
     <!-- FIND YOUR DREAM HOME -->
     <section class="grid grid-cols-2 gap-2 align-top max-w-6xl mx-auto ">
@@ -216,7 +215,7 @@
         <img src="./images/Room.png" alt="Room" class="w-full h-40 object-cover">
         <div class="p-5 text-left">
           <div class="flex items-center gap-2 mb-2">
-            <img src="https://via.placeholder.com/30" class="w-8 h-8 rounded-full">
+          <img src="https://via.placeholder.com/30" class="w-8 h-8 rounded-full">
             <div>
               <p>Sarah Nguyen</p>
               <p class="text-gray-500">San Francisco</p>
@@ -232,7 +231,7 @@
         <img src="./images/House.png" alt="House" class="w-full h-40 object-cover">
         <div class="p-5 text-left">
           <div class="flex items-center gap-2 mb-2">
-            <img src="https://via.placeholder.com/30" class="w-8 h-8 rounded-full">
+        <img src="https://via.placeholder.com/30" class="w-8 h-8 rounded-full">
             <div>
               <p>Michael Rodriguez</p>
               <p class="text-gray-500">San Diego</p>
@@ -248,7 +247,7 @@
         <img src="./images/Livingroom.png" alt="Living room" class="w-full h-40 object-cover">
         <div class="p-5 text-left">
           <div class="flex items-center gap-2 mb-2">
-            <img src="" class="w-8 h-8 rounded-full">
+             <img src="" class="w-8 h-8 rounded-full">
             <div>
               <p>Emily Johnson</p>
               <p class="text-gray-500">Los Angeles</p>
