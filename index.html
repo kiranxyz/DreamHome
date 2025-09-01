@@ -3,18 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Dream Home</title>
-</head>
-<body>
-    <!-- Aziz -->
-    <section>
 
+    <title>Dream Home</title>
+    
+    <style type="text/tailwindcss">
+         @theme  {
+         
+         --color-dark-orange: #DDC7BB;
+         /*bg-orange-100*/ 
+     
+    }
+    </style>
+</head>
+<body class="color-dark-orange"></body>
+    
+    <!-- HEADER-->
+     <section class="top">
+    <header class="flex items-center justify-between text-wrap mt-2">
+        <img class="m-10 font-bold inline-block" src="./images/logo.png" alt="logo">
+        <nav>
+    <ul class="flex items-center gap-6 m-2 color-dark-orange" >
+        <li><a class="flex justify-around top-0 font-bold" href="#home">Home</a></li>
+        <li><a class="flex justify-around font-bold" href="#services">Service</a></li>
+        <li><a class="flex justify-around font-bold" href="#agents">Agents</a></li>
+        <li><a class="flex justify-around font-bold" href="#contact">Contact</a></li>
+        <li><i class="material-icons h-0.5">search</i></li>
+        <li><i class="material-icons">person</i></li>
+        <li> <button class="color-dark-orange border rounded flex justify-around m-2 p-0.5 bg-neutral-700 text-white text-lg" type="signup">Sign up</button></li>
+    </ul>
+  </nav>
     </section>
-    <!-- Harshi -->
-<section>
+   <!-- MAIN -->
+    <section class="color-dark-orange">
+        <h1 class="font-bold text-left pt font-serif m-10 text-5xl">Find your Dream Home </h1>
+        <p class="text-left w-120 pt-4 font-serif m-10 text-2xl">Explore our curated selection of exquisite properties meticulously tailored to your unique dream home vision</p>
+        <button class="border rounded flex justify-around p-1 left-0 m-10  bg-neutral-700 text-white text-lg" type="signup">Sign up</button>
+        <img class="w-200 absolute right-0 top-37" src="./images/dreamhome.png" alt="dreamhome">
+   </section>
+    <!-- SEARCH PROPERTY -->
+   <section class="search-property">
+       <div class= "m-30 w-auto h-30 bottom-32 bg-orange-200" id="rectangle"></div>     
+   
+       <div class= "m-30 w-20 h-20 bottom-32 bg-orange-100"></div>     
+    </section>
+       
+       
+
+    
+    <!-- FIND YOUR DREAM HOME -->
+    <section class="grid grid-cols-2 gap-2 align-top p-10  border border-gray-200 rounded-xl">
+        <div>
+            <img class="mx-auto rounded-2xl m-5" src="./images/erin-lindford.jpg" alt="">
+        </div>
+        <div class="grid grid-rows-3 px-10 pt-5 align-middle">
+            <div>
+                <h1 class="text-5xl font-semibold tracking-tighter text-balance text-gray-900">We Help You To Find</h1>
+                <h1 class="text-5xl font-semibold tracking-tighter text-balance text-gray-900">Your Dream Home</h1>
+            </div>  
+            <div>
+                <p>From cozy cottages to luxurious estates, our dedicted team guides you through every step of the journey, ensuring your dream home becomes a reality</p>
+            </div>          
+            <div>
+                    
+                <p class="text-5xl font-semibold tracking-tighter text-balance text-gray-900">
+                        <span>8K+</span>
+                        <span>6K+</span>
+                        <span>2K+</span>
+                </p>
+            </div>
+            
+        </div>
         
     </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="grid grid-rows-2 px-10 text-center border border-gray-200 rounded-xl mt-5">
+        <div class="space-y-5 pt-5 mt-5 border border-gray-200 rounded-xl">
+            <h1 class="text-5xl font-semibold tracking-tighter text-balance text-gray-900">Why Choose Us</h1>
+            <div>
+                <p>Elevating Your Home Buying Experence with Expertise, Integrity,</p>
+                <p>and Unmatched Personalized Service</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-4 gap-1 ">
+            <div class="border border-gray-200 rounded-2xl m-5 p-5 text-left bg-orange-100">
+                <img class="mb-3 h-10 w-10" src="./images/home.png" alt="">
+                <p class="mb-3 font-semibold text-lg tracking-tighter">Expert Guidance</p>
+                <p class="tracking-tighter font-normal">Benefit from our team's Seasoned expertise for a smooth buying experence</p>
+            </div>
+            <div class="border border-gray-200 rounded-2xl m-5 p-5 text-left bg-orange-100">2</div>
+            <div class="border border-gray-200 rounded-2xl m-5 p-5 text-left bg-orange-100">3</div>
+            <div class="border border-gray-200 rounded-2xl m-5 p-5 text-left bg-orange-100">4</div>
+        </div>
+        
+    </section>
+
+    <!-- OUR POPULAR RESIDENCES -->
+    <section class="grid grid-rows-2 px-10 text-center border border-gray-200 rounded-xl mt-5">
+
+        <p class="grid grid-cols-3 px-10 border border-gray-200 rounded-xl mt-5"> Our Popular Residences</p>
+
+<div class="grid grid-cols-3 p-4 mt-5 border border-gray-200">
+
+    <div class="bg-slate-100 rounded-2xl border border-gray-200">
+        <img class="rounded-2xl" src="./images/erin-lindford.jpg" alt="">
+        <div>
+            <img src="" alt="">
+            <h3>San Francisco, California</h3>
+        </div>
+        <div>
+            <div>
+                <img src="" alt="">
+                <p>4 Rooms</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>3,500 sq ft</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 ">
+            <button type="button" class="text-sm/6 font-semibold text-gray-900">Sign up</button>
+            <span class="">$2,500,000</span>
+        </div>
+    </div>
+    
+    <div class="bg-slate-100 rounded-2xl border border-gray-200">2</div>
+    <div class="bg-slate-100 rounded-2xl border border-gray-200">3</div>
+</div>
+    </section>
+
+   
+    <!-- #DDC7BB -->
+ 
     <!-- What People Say -->
 
 <section class="py-16 bg-[#fefaf7]">
@@ -156,7 +279,5 @@
   </div>
 
     </footer>
-
-
 </body>
 </html>
