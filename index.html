@@ -10,13 +10,28 @@
     <title>Dream Home</title>
     
     <style type="text/tailwindcss">
-  
+      h1 {
+       @apply font-serif;
+      }
+       h2 {
+       @apply font-serif;
+      }
+       h3 {
+       @apply font-serif;
+      }
+       h4 {
+       @apply font-serif;
+      }
+     p {
+       @apply font-serif text-2xl;
+      }
+
     </style>
 </head>
-<body class="bg-[#FBF5F5]">
+<body class="bg-[#f6eded]"  >
     
     <!-- HEADER CONTAINS LOGO, NAVIGATION LINKS, SEARCH AND SIGN UP-->
-    <section>
+    <section class="md:flex-nowrap">
     <header class="flex items-center justify-between text-wrap mt-2">
         <img class="m-10 font-bold inline-block" src="./images/logo.png" alt="logo">
         <nav>
@@ -27,28 +42,34 @@
         <li><a class="flex justify-around font-bold" href="#contact">Contact</a></li>
         <li><i class="material-icons h-0.5">search</i></li>
         <li><i class="material-icons">person</i></li>
-        <li> <button class="border rounded flex justify-around m-10 p-0.5 bg-neutral-700 text-white text-lg" type="signup">Sign up</button></li>
+        <li><button class="bg-gray-900 text-white m-5 px-5 py-2 rounded-md">Sign up</button>
+</li>
     </ul>
   </nav>
     </header>
-    </section>
+    </section >
     <!-- MAIN CONTAINS H1, P, IMAGE AND SIGN UP BUTTON -->
-    <section>
+    <section class="md:flex-nowrap">
         <h1 class="font-bold text-left pt font-serif m-10 text-5xl">Find your Dream Home </h1>
         <p class="text-left w-120 pt-4 font-serif m-10 text-2xl">Explore our curated selection of exquisite properties meticulously tailored to your unique dream home vision</p>
-        <button class="border rounded flex justify-around p-1 left-0 m-10  bg-neutral-700 text-white text-lg" type="signup">Sign up</button>
+        <button class="bg-gray-900 text-white m-5 px-5 py-2 rounded-md m-10">Sign up</button>
+
         <img class="mr-10 w-150 absolute right-0 top-37" src="./images/dreamhome.png" alt="dreamhome">
     </section>
     <!-- SEARCH PROPERTY CONTAINS LOCATION, TYPE, PRICE RANGE AND SIGN UP BUTTON -->
-    <section>
+    <section class="sm:w-auto" >
         <div class= "flex rounded-xl m-30 w-auto h-30 bottom-32 bg-[#DDC7BB]">
- <div class= "flex items-center self-center rounded-xl m-20 w-50 h-20 bg-[#FBF5F1] text-xl"><div class="ml-6 text-xl ">Location</div>
+ <div class= "flex items-center self-center rounded-xl m-10 w-50 h-20 bg-[#FBF5F1] text-xl"><div class="ml-6 text-xl ">Location</div>
         <i class="material-icons ml-14">location_on</i></div>   
-        <div class= "flex items-center self-center rounded-xl  m-20 w-50 h-20 bg-[#FBF5F1] text-xl"><div class="ml-6 text-xl ">Type</div>
+        <div class= "flex items-center self-center rounded-xl  m-10 w-50 h-20 bg-[#FBF5F1] text-xl"><div class="ml-6 text-xl ">Type</div>
         <i class="material-icons ml-22">home</i></div>
-        <div class= "flex items-center self-center rounded-xl m-20 w-50 h-20 bg-[#FBF5F1] text-xl"><div class="ml-6 text-xl ">Price Range</div>
+        <div class= "flex items-center self-center rounded-xl m-10 w-50 h-20 bg-[#FBF5F1] text-xl"><div class="ml-6 text-xl ">Price Range</div>
         <i class="material-icons ml-7">euro</i></div>
-        <button class="border rounded p-1 m-10  bg-neutral-700 text-white text-lg" type="signup">Sign up</button>
+        <div class= "flex items-center self-center rounded-xl m-10 w-50 h-20 bg-[#FBF5F1] text-xl"><div class="ml-6 text-xl ">Booking Date</div>
+        <i class="material-icons ml-7">date_range</i></div>
+        <button class="flex self-center bg-gray-900 text-white  h-10 px-5 py-2 rounded-md m-auto">Sign up</button>
+<hr class="border-t-2 border-gray-400 my-4" />
+
         </div>     
     </section>
     
